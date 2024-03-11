@@ -1,0 +1,61 @@
+[1] Can you describe the differences between synchronous and asynchronous 
+JavaScript?
+
+Ans. 
+
+-> Synchronous:
+    - Executes code sequentially, line by line.
+    
+    - Can lead to blocking behavior, especially for time-consuming tasks.
+
+-> Asynchronous: 
+    - Allows code to run concurrently without blocking.
+   
+    - Can lead to more complex control flow due to asynchronous nature.
+
+[2] How would you handle cross-browser compatibility issues?
+
+Ans. 
+
+
+[3] Walk me through the process of debugging a JavaScript error.
+
+Ans.
+    - Identify the error message and location from the browser console.
+    
+    - Inspect the code, use console.log statements, and utilize browser developer tools to diagnose and fix the issue.
+
+
+[4] What are some best practices for organizing CSS code in larger projects?
+
+Ans. 
+    - In larger projects, organize CSS by modularizing styles into separate files based on components or functionality, and use methodologies like BEM (Block Element Modifier) to maintain a consistent naming convention and avoid specificity issues.
+
+
+[5] How do you implement animations on a webpage?
+
+Ans. 
+    - Use CSS animations and transitions for simple effects like fades or movements by defining keyframes or transitions in CSS.
+   
+    - For more complex animations or interactions, utilize JavaScript libraries like GreenSock (GSAP), React Spring, or anime.js, which offer advanced animation capabilities and allow for dynamic control over animations through JavaScript code.
+
+[6] Describe the difference between inline, block, and inline-block display properties in
+CSS.
+
+Ans. 
+
+    - Inline: Elements displayed inline do not start on a new line and only occupy as much width as necessary, ignoring width and height properties.
+
+    - Block: Block-level elements always start on a new line and take up the full width available, with vertical space above and below.
+    
+    - Inline-block: Combines features of both inline and block elements, allowing elements to flow inline while still retaining the ability to set width, height, padding, and margins.
+
+
+[7] What is the Document Object Model (DOM), and how is it used in web
+development?
+
+Ans. 
+
+    - The Document Object Model (DOM) is a programming interface that represents the structure of HTML and XML documents as a tree-like structure of objects.
+    
+    - In web development, the DOM is used to manipulate the content, structure, and style of web pages dynamically using JavaScript, enabling actions like adding, removing, or modifying elements and their attributes.
